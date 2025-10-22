@@ -1,0 +1,15 @@
+# Trata todos los archivos como 'auto', pero fuerza que
+# los saltos de línea en el commit sean LF (Linux).
+* text=auto eol=lf
+
+# Asegúrate de que los archivos de código fuente siempre usen LF
+*.cpp text eol=lf
+*.h text eol=lf
+*.py text eol=lf
+
+# Si tienes scripts de shell, son muy sensibles
+*.sh text eol=lf
+
+# Define archivos binarios que no deben tocarse
+*.png binary
+*.jpg binary
