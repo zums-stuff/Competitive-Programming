@@ -53,7 +53,7 @@ def handle_codeforces():
     
     # Valida si es contest o gym
     try:
-        path_type = "Gym" if int(contest_id) >= 100000 else "Contest"
+        path_type = "Gym" if int(contest_id) >= 100000 else "Contests"
     except ValueError:
         print("Error: El ID del contest debe ser un número.")
         return
